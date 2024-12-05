@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import path from 'path';
-import { NodePackageImporter } from 'sass'
+import { NodePackageImporter } from 'sass';
+
 // https://vitejs.dev/config/
 export default defineConfig({
 	optimizeDeps: {
@@ -29,6 +30,8 @@ export default defineConfig({
 						'node_modules/@nciocpl/ncids-css/uswds-packages',
 					),
 				],
+                api: 'modern',
+                importers: [new NodePackageImporter()],
 			},
 		},
 	},
