@@ -1,4 +1,3 @@
-import * as NCIDS from "@nciocpl/ncids-css"
 import './index.scss'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
