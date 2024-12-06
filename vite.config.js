@@ -4,12 +4,6 @@ import { NodePackageImporter } from 'sass';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	optimizeDeps: {
-	},
-	plugins: [
-	],
-	resolve: {
-	},
 	build: {
 		minify: true,
 		cssMinify: true,
@@ -30,7 +24,7 @@ export default defineConfig({
 						'node_modules/@nciocpl/ncids-css/uswds-packages',
 					),
 				],
-                api: 'modern',
+                api: "modern",
                 importers: [new NodePackageImporter()],
 			},
 		},

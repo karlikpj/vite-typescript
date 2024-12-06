@@ -1,5 +1,4 @@
-
-@use "uswds-core" with (
+@use "pkg:uswds-core" with (
 	$theme-image-path: "@nciocpl/ncids-css/uswds-img",
 	$theme-show-notifications: false,
 	$theme-show-compile-warnings: false,
@@ -16,10 +15,7 @@
 	),
 	$theme-text-measure: "none",
 );
-@forward "uswds-global";
-@forward "uswds-utilities";
-@forward "usa-layout-grid";
-@forward "usa-prose";
-
-@forward "nci-card-group";
-@forward "nci-card";
+// @forward "uswds-global";
+// @forward "uswds-utilities";
+// @forward "usa-layout-grid";
+// @forward "usa-prose";
